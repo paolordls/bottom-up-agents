@@ -1,0 +1,10 @@
+[project]
+name = "bottom-up-agents"
+version = "0.1.0"
+description = "A tutorial workshop on AI agents - from basic workflows to multi-agent systems"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "openai>=1.98.0",
+    "python-dotenv>=1.1.1",
+]
