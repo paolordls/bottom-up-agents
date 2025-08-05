@@ -59,7 +59,7 @@ src/
 
 ## Running the Tutorials
 
-### Interactive Streamlit App (Recommended)
+### Interactive Streamlit App
 
 ```bash
 # Activate the virtual environment
@@ -74,20 +74,6 @@ The app will automatically open in your browser. You can:
 - Adjust model and temperature settings
 - Have conversations with each agent type
 - See how capabilities build from stage to stage
-
-### Command Line Scripts
-
-```bash
-# Activate the virtual environment
-source .venv/bin/activate
-
-# Run each stage
-python tutorials/00_simple_prompt.py
-python tutorials/01_few_shot.py
-python tutorials/02_memory.py
-python tutorials/03_tools.py
-python tutorials/04_agent_loop.py
-```
 
 ## Key Design Principles
 
