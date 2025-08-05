@@ -5,7 +5,7 @@ from src.core.tools import Tool
 
 
 class ReasoningAgent(ToolAgent):
-    def __init__(self, max_iterations: int = 5, **kwargs):
+    def __init__(self, max_iterations: int = 20, **kwargs):
         super().__init__(**kwargs)
         self.max_iterations = max_iterations
         self.enable_memory = True
